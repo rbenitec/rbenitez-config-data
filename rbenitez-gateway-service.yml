@@ -32,7 +32,7 @@ spring:
           predicates:
             - Path=/credits/**
         - id: rbenitez-customer-service
-          uri: lb://rbenitez-customer-service
+          uri: lb://RBENITEZ-CUSTOMER-SERVICE
           predicates:
             - Path=/customer/**
         - id: rbenitez-transaction-service
